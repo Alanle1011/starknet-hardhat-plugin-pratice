@@ -12,18 +12,7 @@ async function main() {
 
   console.log("Deployed to:", contract.address);
 
-  // const { res: balanceBefore } = await contract.call(
-  //   "get_balance_of_contract_v1"
-  // );
-  // console.log("Balance before invoke: ", balanceBefore);
-
-  // await account.invoke(contract, "increase_balance_of_contract_v1", {
-  //   amount: 30,
-  // });
-  // const { res: balanceAfter } = await contract.call(
-  //   "get_balance_of_contract_v1"
-  // );
-  // console.log("Balance after invoke:", balanceAfter);
+ 
 }
 
 main()
