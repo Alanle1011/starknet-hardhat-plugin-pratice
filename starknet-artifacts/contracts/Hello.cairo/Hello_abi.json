@@ -1,0 +1,1 @@
+[{"type":"function","name":"say_hi","inputs":[{"name":"message","type":"core::felt252"}],"outputs":[],"state_mutability":"external"},{"type":"event","name":"Hello","inputs":[{"name":"from","type":"core::starknet::contract_address::ContractAddress"},{"name":"value","type":"core::felt252"}]}]
