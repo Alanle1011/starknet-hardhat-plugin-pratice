@@ -5,14 +5,21 @@ module.exports = {
   solidity: "0.6.12",
   starknet: {
     venv: "~/cairo_venv",
-    // recompile: false,
+    recompile: false,
     cairo1BinDir: "~/.cairo/target/release",
 
-    network: "devnet",
+    // network: "devnet",
   },
   networks: {
     devnet: {
       url: "http://127.0.0.1:5050",
     },
+
+    integratedDevnet: {
+      url: "http://127.0.0.1:5050",
+      venv: "active",
+      args: ["--seed", "0"],
+    },
+    hardhat: {},
   },
 };
